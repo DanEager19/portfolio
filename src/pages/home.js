@@ -1,10 +1,17 @@
 import React from "react";
 
-export default function Home () {
+
+function Home () {
 
     return (
         <div className="text-center">
-            <p>to be or not to be</p>
+            Hi
+            <div>
+                <p>p</p>
+            <img src="./images/test.png" className="img-hover" alt="github"/>
+            </div>
+
         </div>
     )
 }
+export default Home

@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-body {
+div {
     font-family: 'Montserrat', sans-serif;
 }
 .img-hover {
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
     width: 200px;
     height: 200px;
-}
-.img-hover:hover {
-    transition: width 2s, height 4s;
-    width: 250px;
-    height: 250px ;
+    &:hover {
+        transition: width 0.5s, height 0.5s;
+        transition-timing-function: ease-in;
+        width: 210px;
+        height: 210px ;
+    }
 }
