@@ -7,9 +7,13 @@ import Portfolio from './components/portfolio';
 
 function App() {
   return (
-    <div className="App text-center">
+    <div className="App">
       <About />
+      <br />
+      <br />
       <Portfolio />
+      <br />
+      <br />
       <Social />
     </div>
   );

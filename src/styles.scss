@@ -4,13 +4,11 @@ div {
     font-family: 'Montserrat', sans-serif;
 }
 .img-hover {
-    transition: width 0.5s, height 0.5s;
-    transition-timing-function: ease-in;
+    transition: width 0.25s, height 0.25s;
     width: 200px;
     height: 200px;
     &:hover {
-        transition: width 0.5s, height 0.5s;
-        transition-timing-function: ease-in;
+        transition: width 0.25s, height 0.25s;
         width: 210px;
         height: 210px ;
     }
@@ -24,4 +22,11 @@ div {
         width: 55px;
         height: 55px ;
     }
+}
+#profile {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 353.5px;
+    height: 500px;
 }
