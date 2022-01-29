@@ -7,14 +7,19 @@ import Portfolio from './components/portfolio';
 
 function App() {
   return (
-    <div className="App">
-      <About />
-      <br />
-      <br />
-      <Portfolio />
-      <br />
-      <br />
-      <Social />
+    <div className="App flex-wrap">
+      <div className='flex-outer' />
+      <div className='flex-inner'>
+        <About />
+        <br />
+        <br />
+        <Portfolio />
+        <br />
+        <br />
+        <Social />
+        <br />
+      </div>
+      <div className='flex-outer' />
     </div>
   );
 }
