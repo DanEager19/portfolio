@@ -9,7 +9,7 @@ function About() {
       <div className='row-sm-2'>
         <p className='col-xs-2'>I'm Daniel Eager, full-time student, indepdent app developer, and real-time gamer. I'm currently enrolled at 
           Dakota State University for bachelor's in Cyber Operations in Cyber Operations and Cyber Leadership/Intelligence; I'll be graduating in 2024.
-          Outside of classes, I lead the Agriculture and Culinary Club as president and founder. I'm also active in Computer Club, Defensive Security Club, Offensive Security Club,
+          Outside of classes, I lead the Agriculture and Culinary Club as founder and president. I'm also active in Computer Club, Defensive Security Club, Offensive Security Club,
           and Help Night.
         </p>
       </div>

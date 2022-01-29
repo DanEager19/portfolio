@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import Social from './components/social';
 import About from './components/about';
-import Portfolio from './components/portfolio';
+import Projects from './components/projects';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <About />
         <br />
         <br />
-        <Portfolio />
+        <Projects />
         <br />
         <br />
         <Social />
