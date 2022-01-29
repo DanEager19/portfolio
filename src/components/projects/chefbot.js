@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal } from 'react-bootstrap';
 import { useState } from 'react';
 
-function Indb() {
+function Chefbot() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -10,20 +10,20 @@ function Indb() {
     return (
         <div className="col-md-auto">
             <button variant="primary" onClick={handleShow}>
-                <img className="img-hover img-fluid" src={`./assets/svgs/projects/indb.svg`} alt="indb icon" />         
+                <img className="img-hover img-fluid" src={`./assets/svgs/projects/chefbot.svg`} alt="Chefbot icon" />         
             </button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>In-db</Modal.Title>
+                    <Modal.Title>Chef-Bot</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    In-DB is a fullstack, database web app using the MERN stack.
+                    Chef-Bot is my personal Discord Bot written with Node. She helps moderate the Cooking and Gardening Club server and send reminders.
                 </Modal.Body>
                 <Modal.Footer>
-                    <a href="https://github.com/DanEager19/in-db">GitHub</a>
+                    <a href="https://github.com/DanEager19/chef-bot">GitHub</a>
                 </Modal.Footer>
             </Modal>
         </div>            
     );
 }
-export default Indb;
+export default Chefbot;

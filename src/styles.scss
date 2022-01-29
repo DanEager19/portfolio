@@ -2,6 +2,7 @@
 
 div {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.03em;
 }
 .flex-wrap {
     display: flex; 
@@ -9,35 +10,48 @@ div {
 }
 .flex-inner {
     box-sizing: border-box;
-    width: 75%;
+    width: 60%;
 }
 .flex-outer {
     box-sizing: border-box;
-    width: 12.5%;
+    width: 20%;
 }
+.flex-triple {
+    box-sizing: border-box;
+    width: 33%;
+}
+
 .img-hover {
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 0.75em;
     transition: width 0.25s, height 0.25s;
-    width: 200px;
-    height: 200px;
+    width: 10em;
+    height: 10em;
     &:hover {
         transition: width 0.25s, height 0.25s;
-        width: 210px;
-        height: 210px ;
+        width: 10.5em;
+        height: 10.5em;
     }
 }
 .svgs {
     transition: width 0.25s, height 0.25s;
-    width: 50px;
-    height: 50px;
-    margin: 0.5em;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.25em;
     &:hover {
         transition: width 0.25s, height 0.25s;
-        width: 55px;
-        height: 55px ;
+        width: 2.75em;
+        height: 2.75em ;
+    }
+}
+.resume-svgs {
+    transition: width 0.25s, height 0.25s;
+    width: 7.5em;
+    height: 7.5em;
+    margin: 0.25em;
+    &:hover {
+        transition: width 0.25s, height 0.25s;
+        width: 7.75em;
+        height: 7.75em ;
     }
 }
 #profile {

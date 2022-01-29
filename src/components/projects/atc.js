@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal } from 'react-bootstrap';
 import { useState } from 'react';
 
-function Indb() {
+function Atc() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -10,20 +10,20 @@ function Indb() {
     return (
         <div className="col-md-auto">
             <button variant="primary" onClick={handleShow}>
-                <img className="img-hover img-fluid" src={`./assets/svgs/projects/indb.svg`} alt="indb icon" />         
+                <img className="img-hover img-fluid" src={`./assets/svgs/projects/atc.svg`} alt="ATC icon" />         
             </button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>In-db</Modal.Title>
+                    <Modal.Title>ATC</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    In-DB is a fullstack, database web app using the MERN stack.
+                    Simple CLI for sending HTTP requests; Written in Rust. 
                 </Modal.Body>
                 <Modal.Footer>
-                    <a href="https://github.com/DanEager19/in-db">GitHub</a>
+                    <a href="https://github.com/DanEager19/api-testing-cli">GitHub</a>
                 </Modal.Footer>
             </Modal>
         </div>            
     );
 }
-export default Indb;
+export default Atc;
