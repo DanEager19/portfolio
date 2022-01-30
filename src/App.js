@@ -16,10 +16,10 @@ function App() {
         <br />
         <Projects />
         <br />
+        <Resume />
         <br />
         <Social />
         <br />
-        <Resume />
       </div>
       <div className='flex-outer' />
     </div>
