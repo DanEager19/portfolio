@@ -7,7 +7,7 @@ import Dotfiles from './projects/dotfiles';
 function Projects() {
     return (
             <div className='container row justify-content-center text-center'>
-                <h2>PROJECTS</h2>
+                <h2>Projects</h2>
                 <Indb /> 
                 <Atc />
                 <Chefbot />

@@ -3,6 +3,7 @@ import React from "react";
 function Social() {
     return (
         <div className="row justify-content-md-center">
+            <h4 className="text-center">Get in Touch!</h4>
             <div className="col-md-auto">
                 <a href = "mailto: daniel.eager19@outlook.com">
                     <img className="svgs" src="./assets/svgs/social/email.svg" alt="Email icon" />

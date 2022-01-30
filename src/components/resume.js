@@ -6,8 +6,8 @@ import Tools from './resume/tools';
 function Resume() {
   return (
     <div className="text-center col flex-wrap">
-        <Tech />
       <Skills />
+        <Tech />
       <Tools />
     </div>
   );
