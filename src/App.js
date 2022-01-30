@@ -5,6 +5,7 @@ import Social from './components/social';
 import About from './components/about';
 import Projects from './components/projects';
 import Resume from './components/resume';
+import Copyright from './components/copyright';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <br />
         <Social />
         <br />
+        <Copyright />
       </div>
       <div className='flex-outer' />
     </div>

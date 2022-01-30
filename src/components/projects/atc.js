@@ -10,7 +10,7 @@ function Atc() {
     return (
         <div className="col-md-auto">
             <button variant="primary" onClick={handleShow}>
-                <img className="img-hover img-fluid" src={`./assets/svgs/projects/atc.svg`} alt="ATC icon" />         
+                <img className="project-svgs img-fluid" src={`./assets/svgs/projects/atc.svg`} alt="ATC icon" />         
             </button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>

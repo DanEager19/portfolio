@@ -10,7 +10,7 @@ function Indb() {
     return (
         <div className="col-md-auto">
             <button variant="primary" onClick={handleShow}>
-                <img className="img-hover img-fluid" src={`./assets/svgs/projects/indb.svg`} alt="indb icon" />         
+                <img className="project-svgs img-fluid" src={`./assets/svgs/projects/indb.svg`} alt="indb icon" />         
             </button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
