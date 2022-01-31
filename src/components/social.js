@@ -2,7 +2,7 @@ import React from "react";
 
 function Social() {
     return (
-        <div className="row justify-content-center text-center">
+        <div className="row  mx-auto justify-content-center text-center">
             <h2 className="text-center">Where I'm At</h2>
             <div className="col-md-1">
                 <div className="social-svg-box">

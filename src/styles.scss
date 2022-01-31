@@ -23,6 +23,7 @@ div {
 
 @mixin svg($margin, $before, $after) {
     margin: $margin;
+    text-align: center;
     transition: width 0.25s, height 0.25s;
     transition-timing-function: ease-in;
     width: $before;
@@ -50,7 +51,7 @@ div {
     @include svg(0.25em, 2em, 2.25em);
 }
 .social-svg-box {
-    @include svg-box(3em);
+    @include svg-box(2em);
 }
 
 ul {

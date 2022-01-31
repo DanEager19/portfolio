@@ -6,7 +6,7 @@ import Dotfiles from './projects/dotfiles';
 
 function Projects() {
     return (
-            <div className='row justify-content-center text-center'>
+            <div className='row mx-auto text-center'>
                 <div className='col'>
                     <div className='project-svg-box'>
                         <div className='row'>
