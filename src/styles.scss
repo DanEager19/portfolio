@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.03em;
+}
+.flex-wrap {
+    display: flex; 
+    width: 100%;
+}
+.flex-inner {
+    box-sizing: border-box;
+    width: 70%;
+}
+.flex-outer {
+    box-sizing: border-box;
+    width: 15%;
+}
+.flex-quarter {
+    box-sizing: border-box;
+    width: 25%;
+}
+
+@mixin svg($margin, $before, $after) {
+    margin: $margin;
+    text-align: center;
+    transition: width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+    width: $before;
+    height: $before;
+    &:hover { 
+        transition-timing-function: ease-in;
+        transition: width 0.25s, height 0.25s;
+        width: $after;
+        height: $after;
+    }
+}
+@mixin svg-box($length) {
+    max-height: $length;
+    max-width: $length;
+}
+
+.project-svgs {
+    @include svg(0.75em, 10em, 10.5em);
+}
+.project-svg-box {
+    @include svg-box(12em);
+}
+
+.social-svgs {
+    @include svg(0.25em, 2em, 2.25em);
+}
+.social-svg-box {
+    @include svg-box(2em);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.about-margin {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#profile {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 353.5px;
+    height: 500px;
+}
+
+a {
+    color: black;
+    &:visited {
+        color: gray;
+    }
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
