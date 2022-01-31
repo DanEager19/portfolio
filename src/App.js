@@ -7,6 +7,7 @@ import Projects from './components/projects';
 import Resume from './components/resume';
 import Copyright from './components/copyright';
 
+
 function App() {
   return (  
     <div className="App flex-wrap">
