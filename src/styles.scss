@@ -10,50 +10,63 @@ div {
 }
 .flex-inner {
     box-sizing: border-box;
-    width: 60%;
+    width: 70%;
 }
 .flex-outer {
     box-sizing: border-box;
-    width: 20%;
+    width: 15%;
 }
-.flex-triple {
+.flex-quarter {
     box-sizing: border-box;
-    width: 33%;
+    width: 25%;
+}
+
+@mixin svg($margin, $before, $after) {
+    margin: $margin;
+    transition: width 0.25s, height 0.25s;
+    transition-timing-function: ease-in;
+    width: $before;
+    height: $before;
+    &:hover { 
+        transition-timing-function: ease-in;
+        transition: width 0.25s, height 0.25s;
+        width: $after;
+        height: $after;
+    }
+}
+@mixin svg-box($length) {
+    max-height: $length;
+    max-width: $length;
 }
 
 .project-svgs {
-    margin: 0.75em;
-    transition: width 0.25s, height 0.25s;
-    width: 10em;
-    height: 10em;
-    &:hover {
-        transition: width 0.25s, height 0.25s;
-        width: 10.5em;
-        height: 10.5em;
-    }
+    @include svg(0.75em, 10em, 10.5em);
 }
+.project-svg-box {
+    @include svg-box(12em);
+}
+
 .social-svgs {
-    transition: width 0.25s, height 0.25s;
-    width: 2.5em;
-    height: 2.5em;
-    margin: 0.25em;
-    &:hover {
-        transition: width 0.25s, height 0.25s;
-        width: 2.75em;
-        height: 2.75em ;
-    }
+    @include svg(0.25em, 2em, 2.25em);
 }
-.resume-svgs {
-    transition: width 0.25s, height 0.25s;
-    width: 5em;
-    height: 5em;
-    margin: 0.5em;
-    &:hover {
-        transition: width 0.25s, height 0.25s;
-        width: 5.25em;
-        height: 5.25em ;
-    }
+.social-svg-box {
+    @include svg-box(3em);
 }
+
+ul {
+    list-style-type: none;
+}
+
+.section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.about-margin {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 #profile {
     border-width: 3px;
     border-style: solid;

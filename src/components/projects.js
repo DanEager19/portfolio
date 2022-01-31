@@ -6,12 +6,35 @@ import Dotfiles from './projects/dotfiles';
 
 function Projects() {
     return (
-            <div className='container row justify-content-center text-center'>
-                <h2>Projects</h2>
-                <Indb /> 
-                <Atc />
-                <Chefbot />
-                <Dotfiles />
+            <div className='row justify-content-center text-center'>
+                <div className='col'>
+                    <div className='project-svg-box'>
+                        <div className='row'>
+                            <Indb />
+                        </div>
+                    </div>
+                </div>
+                <div className='col'>
+                    <div className='project-svg-box'>
+                        <div className='row'>
+                            <Atc />
+                        </div> 
+                    </div>
+                </div>
+                <div className='col'>
+                    <div className='project-svg-box'>
+                        <div className='row'>
+                            <Chefbot/> 
+                        </div>  
+                    </div>
+                </div>
+                <div className='col'>
+                    <div className='project-svg-box'>
+                        <div className='row'>
+                            <Dotfiles /> 
+                        </div>
+                    </div>
+                </div>
             </div>
          );
 }
