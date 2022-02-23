@@ -24,7 +24,7 @@ div {
 @mixin svg($margin, $before, $after) {
     margin: $margin;
     text-align: center;
-    transition: width 0.25s, height 0.25s;
+    transition: width 0.2s, height 0.2s;
     transition-timing-function: ease-in;
     width: $before;
     height: $before;
@@ -41,7 +41,7 @@ div {
 }
 
 .project-svgs {
-    @include svg(0.75em, 10em, 10.5em);
+    @include svg(1em, 10em, 10.25em);
 }
 .project-svg-box {
     @include svg-box(12em);
