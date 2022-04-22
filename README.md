@@ -2,7 +2,10 @@ https://deager.dev/
 
 Icons by svgrepo.com
 
-Updates for:
+Let's make some updaes:
+Frameworks:
+  Angular, Flask, NestJS
+Databases:
   Redis
-  Flask
-  Docker-Compose
+Admin Experience
+  Windows, Sysmon, pfSense, PaloAlto, Juniperx, Suricata, IPTables/Windows Firewall, Wazuh, Splunk, Fail2Ban
