@@ -17,7 +17,7 @@ function Indb() {
                     <Modal.Title>In-db</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    In-DB is a fullstack, database web app using the MERN stack.
+                    In-DB is a fullstack, database web app for video games. It uses Nest, Angular, MongoDB, and Graphql.
                 </Modal.Body>
                 <Modal.Footer>
                     <a href="https://github.com/DanEager19/in-db">GitHub</a>

@@ -17,7 +17,7 @@ function Chefbot() {
                     <Modal.Title>Chef-Bot</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    Chef-Bot is my personal Discord Bot written with Node. She helps moderate the Cooking and Gardening Club server and send reminders.
+                    Chef-Bot is my personal Discord Bot written with Python. Currently lacks a definitive purpose but I may revisit the project soon! 
                 </Modal.Body>
                 <Modal.Footer>
                     <a href="https://github.com/DanEager19/chef-bot">GitHub</a>
